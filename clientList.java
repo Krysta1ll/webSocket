@@ -1,2 +1,9 @@
-package PACKAGE_NAME;public class clientList {
+import java.util.ArrayList;
+
+public class clientList {
+    public static ArrayList clientList;
+    static {
+        clientList = new ArrayList<multiServer.clientHandler>();
+    }
 }
+
